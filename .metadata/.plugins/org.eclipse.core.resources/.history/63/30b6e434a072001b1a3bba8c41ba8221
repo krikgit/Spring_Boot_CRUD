@@ -16,9 +16,8 @@ public class LoginController {
 	}
 	
 	@RequestMapping(value="/home",method=RequestMethod.POST)
-	public String wlcmMsg( ModelMap model,@RequestParam String name,@RequestParam String pass) {
+	public String wlcmMsg(@RequestParam String name, ModelMap model) {
 		model.put("name", name);
-		model.put("pass",pass);
 		return "welcome";
 	}
 }
