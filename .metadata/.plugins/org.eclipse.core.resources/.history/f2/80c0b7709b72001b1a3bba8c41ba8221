@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title>Welcome</title>
+	</head>
+	<body>
+		<P>Welcome ${name} to Spring Boot by JSP</P>
+		<form>
+			Name : <input type="text" name="name"><br/>
+			Pass : <input type="password" name="pass">
+		</form>
+	</body>
+</html>

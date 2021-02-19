@@ -1,0 +1,8 @@
+<html>
+	<head>
+		<title>Welcome</title>
+	</head>
+	<body>
+		<P>Welcome ${ name }to Spring Boot by JSP</P>
+	</body>
+</html>
