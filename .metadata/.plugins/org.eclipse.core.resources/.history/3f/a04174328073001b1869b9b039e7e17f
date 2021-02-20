@@ -1,0 +1,16 @@
+package com.krish.webapp.WebApplication.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.krish.webapp.WebApplication.model.Todo;
+
+public class TodoService {
+	
+	//to generate static data as no db connected till now
+	private static List<Todo> todos = new ArrayList<Todo>();
+	//as I will insert 3 values, then CRUD operation will be executed
+	private static int todoCount = 3;
+
+
+}

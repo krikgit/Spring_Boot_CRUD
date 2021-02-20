@@ -1,0 +1,16 @@
+package com.krish.webapp.WebApplication.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import com.krish.webapp.WebApplication.service.TodoService;
+
+@Controller
+public class TodoController {
+	
+	@Autowired
+	TodoService todoService;
+	
+	
+	
+
+}

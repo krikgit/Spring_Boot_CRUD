@@ -9,5 +9,6 @@
 			Pass : <input type="password" name="pass"><br/>
 			<input type="submit" value="Submit">
 		</form>
+		<p style="color:red;">${ errMsg }
 	</body>
 </html>
