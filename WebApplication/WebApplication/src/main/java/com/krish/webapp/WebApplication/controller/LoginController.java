@@ -17,7 +17,8 @@ public class LoginController {
 	LoginService loginService;
 	
 	@RequestMapping(value="/home", method=RequestMethod.GET)
-	public String initMsg() {
+	public String initMsg(ModelMap model) {
+		//model.put("name","krik");
 		return "login";
 	}
 	

@@ -1,8 +1,6 @@
-<html>
-	<head>
-		<title>Home</title>
-	</head>
-	<body>
+<%@ include file="common/header.jspf"  %>
+<%@ include file="common/navigation.jspf"  %>
+	<div class="container">
 		<P>Welcome to Spring Boot by JSP</P>
 		<form method="post">
 			Name : <input type="text" name="name"><br/>
@@ -10,5 +8,5 @@
 			<input type="submit" value="Submit">
 		</form>
 		<p style="color:red;">${ errMsg }
-	</body>
-</html>
+	</div>
+<%@ include file="common/footer.jspf" %>	

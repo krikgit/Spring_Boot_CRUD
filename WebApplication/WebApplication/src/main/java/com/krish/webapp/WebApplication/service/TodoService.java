@@ -49,5 +49,21 @@ public class TodoService {
 		}
 		return listOfTodos;
 	}
+	
+	//for update 
+	public Todo updateTodo(long id) { 
+		Todo flagObj = null; 
+		for(Todo todoObj : todos) {
+			if(todoObj.getId() == id) { 
+				flagObj = todoObj; 
+			} 
+		} 
+		return flagObj; }
+	 
+	
+	public void updateTodo(Todo todo) {
+		todos.remove(todo);
+		todos.add(todo);
+	}
 
 }
